@@ -1,4 +1,4 @@
-# Dishwasher-safe_or_Not
+# Kitchenware Care: Dishwasher Compatibility Checker App
 
 ## Background
 We have become comfortable using some common household appliances, but we often forget to consider their limitations. One such appliance is the dishwasher, which was invented by Joel Houghton in 1850. A dishwasher is a machine used to automatically clean dishware, cookware, and cutlery. Unlike manual dishwashing, which relies on physical scrubbing to remove soiling, the mechanical dishwasher cleans by spraying hot water, typically between 45 and 75 °C (110 and 170 °F), at the dishes, with lower temperatures of water used for delicate items. [Source: https://en.wikipedia.org/wiki/Dishwasher]
