@@ -12,6 +12,8 @@ While some may be discouraged from using dishwashers after realizing the effort 
 ## Dataset
 The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Crop_and_Resize.py).
 
+The [notebook]()  explores the clusters of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
+
 Further, the images were arranged in folders based on the type of kitchen with the directory structure as follows:
 ```
 dataset
@@ -40,4 +42,3 @@ After performing [data analysis](Data_Exploration.ipynb) the following distribut
 
 ![alt text](https://github.com/anushreedas/Dishwasher-safe_or_Not/blob/main/readme_images/sub_class_dist.png "Sub-Class Distribution")
 
-The [notebook](Data_Exploration.ipynb) further explores the clusters of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
