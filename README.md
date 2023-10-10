@@ -10,7 +10,7 @@ Materials to steer clear of when using your dishwasher include fine china, clay,
 While some may be discouraged from using dishwashers after realizing the effort required to remember which materials are not dishwasher-safe and feeling confused about how to recognize the material of the cookware they own, this project aims to build an application that will help users identify whether a kitchenware item is dishwasher-safe or not.
 
 ## Dataset
-The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](../blob/main/Crop_and_Resize.py).
+The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Data_Exploration.ipynb).
 
 Further, the images were arranged in folders based on the type of kitchen with the directory structure as follows:
 ```
@@ -34,10 +34,10 @@ dataset
    |-- ..
    ..
 ```
-After performing [data anylysis](../blob/main/Data_Exploration.ipynb) the following distributions of classes and sub-classes were found
+After performing [data analysis](Data_Exploration.ipynb) the following distributions of classes and sub-classes were found
 
 ![alt text](https://github.com/anushreedas/Dishwasher-safe_or_Not/blob/main/readme_images/class_dist.png "Class Distribution")
 
 ![alt text](https://github.com/anushreedas/Dishwasher-safe_or_Not/blob/main/readme_images/sub_class_dist.png "Sub-Class Distribution")
 
-The [notebook](../blob/main/Data_Exploration.ipynb) further explores the clusters of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
+The [notebook](Data_Exploration.ipynb) further explores the clusters of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
