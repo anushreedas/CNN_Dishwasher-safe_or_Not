@@ -17,6 +17,10 @@ Further, the images were arranged in folders based on the type of kitchen with t
 dataset
 |--dishwasher-safe
 |  |-- spoon
+|  |   |--img234.png
+|  |   |--img65.png
+|  |   |--..
+|  |   ..
 |  |-- fork
 |  |-- plate
 |  |-- ..
