@@ -10,7 +10,7 @@ Materials to steer clear of when using your dishwasher include fine china, clay,
 While some may be discouraged from using dishwashers after realizing the effort required to remember which materials are not dishwasher-safe and feeling confused about how to recognize the material of the cookware they own, this project aims to build an application that will help users identify whether a kitchenware item is dishwasher-safe or not.
 
 ## Dataset
-The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Data_Exploration.ipynb).
+The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Crop_and_Resize.py).
 
 Further, the images were arranged in folders based on the type of kitchen with the directory structure as follows:
 ```
