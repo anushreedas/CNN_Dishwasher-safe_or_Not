@@ -10,13 +10,13 @@ Materials to steer clear of when using your dishwasher include fine china, clay,
 While some may be discouraged from using dishwashers after realizing the effort required to remember which materials are not dishwasher-safe and feeling confused about how to recognize the material of the cookware they own, this project aims to build an application that will help users identify whether a kitchenware item is dishwasher-safe or not.
 
 ## Dataset
-The images for the dataset were collected from Kaggle and Google, along with some self-clicked photos of Kitchenware. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Crop_and_Resize.py).
+The images for the dataset used in this project were gathered from Kaggle and Google, along with some self-clicked photos of Kitchenware items. As a part of preprocessing, the images are cropped to square and resized to 256x256 image using the code written in [Crop_and_Resize.py](Crop_and_Resize.py).
 
 Link to dataset: [dishwasher-safe-or-not](https://www.kaggle.com/datasets/anushreesitaramdas/dishwasher-safe-or-not)
 
-The [notebook]()  explores the clusters of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
+Initially, the dataset was unlabelled, therefore to confirm how many types of objects are present in the dataset and how many instances are there for each type, a clustering algorithm was used. The [Clustering_on_Image_Dataset.ipynb notebook](https://github.com/anushreedas/Dishwasher-safe_or_Not/blob/main/Clustering_on_Image_Dataset.ipynb)  explores the clustering of similar images by applying KMeans Clustering on features extracted by VGG16 model and reduced by PCA algorithm provided by the Sklearn library.
 
-Further, the images were arranged in folders based on the type of kitchen with the directory structure as follows:
+Further, the images were arranged in folders based on the type of kitchenware with the directory structure as follows:
 ```
 dataset
 |--dishwasher-safe
