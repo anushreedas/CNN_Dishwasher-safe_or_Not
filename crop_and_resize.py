@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 SIZE = 256, 256
-raw_data_dir = '/Users/anushree/Desktop/Dishwasher-safe Or Not/Data/new_raw_data'
-processed_data_dir = '/Users/anushree/Desktop/Dishwasher-safe Or Not/Data/new_processed_data/'
+raw_data_dir = './data/new_raw_data'
+processed_data_dir = './data/new_processed_data/'
 
 def crop_resize_image(filepath):
     im = Image.open(filepath)
@@ -43,6 +43,3 @@ for filename in os.listdir(raw_data_dir):
     if os.path.isfile(f) and filename.split('.')[-1] in ext:
         print(f)
         crop_resize_image(f)
-
-
-# crop_resize_image('/Users/anushree/Desktop/Dishwasher-safe Or Not/Data/raw_data/teaspoonraw29.JPG')
