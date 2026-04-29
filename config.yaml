@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Data
+# ---------------------------------------------------------------------------
+data_dir: data/final_data
+
+# img_size: null means use the model-specific default (224x224 for pretrained
+# models, 256x256 for the custom CNN). Set explicitly to override.
+img_size: null
+
+# ---------------------------------------------------------------------------
+# Split ratios
+# ---------------------------------------------------------------------------
+val_split:  0.15   # 15% of total for validation
+test_split: 0.15   # 15% of total for test
+                   # remaining 70% goes to training
+
+# ---------------------------------------------------------------------------
+# Training
+# ---------------------------------------------------------------------------
+batch_size:   32
+num_workers:  2
+learning_rate: 0.0001
+weight_decay:  0.0001
+epochs:        30
+seed:          42
+
+# ---------------------------------------------------------------------------
+# Scheduler and early stopping
+# ---------------------------------------------------------------------------
+lr_patience:              3    # epochs before LR is halved (ReduceLROnPlateau)
+early_stopping_patience:  7    # epochs before training stops
+
+# ---------------------------------------------------------------------------
+# Model
+# Choices: cnn | resnet18 | resnet50 | vgg16_bn | alexnet
+# ---------------------------------------------------------------------------
+model: cnn
+
+# Set to true to freeze all backbone layers and only train the final head.
+# Useful when the dataset is small — faster training, less risk of overfitting.
+# Set to false to fine-tune the full network.
+freeze_backbone: false
+
+# ---------------------------------------------------------------------------
+# Output
+# ---------------------------------------------------------------------------
+model_path: models/cnn_classifier.pth
+
+# ---------------------------------------------------------------------------
+# Classes
+# Key = folder name under data_dir, value = integer label
+# ---------------------------------------------------------------------------
+classes:
+  dishwasher-safe: 1
+  not-dishwasher-safe: 0
