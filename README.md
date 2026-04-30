@@ -3,8 +3,8 @@
 Binary image classification pipeline that determines whether kitchenware is dishwasher-safe, comparing five CNN architectures on a custom dataset with class imbalance handling and rigorous per-class evaluation.
 
 Part of a three-article series:
-- [EDA: Image Dataset Analysis with Pandas and Matplotlib](https://medium.com/@anushreedas.2710/image-dataset-analysis-using-python-libraries-pandas-and-matplotlib-a640e5f59805)
-- [Clustering: Finding Structure in Unlabelled Image Data](https://medium.com/@anushreedas.2710/finding-structure-in-unstructured-image-dataset-an-initial-analysis-of-unlabelled-data-0cf2f6231735)
+- [EDA: Image Dataset Analysis with Pandas and Matplotlib](https://medium.com/@anushree-das/image-dataset-analysis-using-python-libraries-pandas-and-matplotlib-a640e5f59805)
+- [Clustering: Finding Structure in Unlabelled Image Data](https://medium.com/@anushree-das/finding-structure-in-unstructured-image-dataset-an-initial-analysis-of-unlabelled-data-0cf2f6231735)
 
 **Dataset:** [Dishwasher-Safe or Not](https://www.kaggle.com/datasets/anushreesitaramdas/dishwasher-safe-or-not) — 1,237 images across 55 sub-classes of kitchenware, collected from Kaggle, Google, and self-photographed items.
 
@@ -168,4 +168,4 @@ test_split: 0.15
 ## Author
 
 **Anushree Das**
-[LinkedIn](https://linkedin.com/in/anushree-s-das) · [GitHub](https://github.com/anushreedas) · [Medium](https://medium.com/@anushreedas.2710)
+[LinkedIn](https://linkedin.com/in/anushree-s-das) · [GitHub](https://github.com/anushreedas) · [Medium](https://medium.com/@anushree-das)
