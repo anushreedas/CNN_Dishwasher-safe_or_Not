@@ -5,7 +5,7 @@ Binary image classification pipeline that determines whether kitchenware is dish
 Part of a three-article series:
 - [EDA: Image Dataset Analysis with Pandas and Matplotlib](https://anushree-das.medium.com/image-dataset-analysis-using-python-libraries-pandas-and-matplotlib-a640e5f59805)
 - [Clustering: Finding Structure in Unlabelled Image Data](https://anushree-das.medium.com/finding-structure-in-unstructured-image-dataset-an-initial-analysis-of-unlabelled-data-0cf2f6231735)
-
+- [Your Image Dataset Is Ready. Now Which Model Do You Train?](https://anushree-das.medium.com/your-image-dataset-is-ready-now-which-model-do-you-train-b72d63367708
 **Dataset:** [Dishwasher-Safe or Not](https://www.kaggle.com/datasets/anushreesitaramdas/dishwasher-safe-or-not) — 1,237 images across 55 sub-classes of kitchenware, collected from Kaggle, Google, and self-photographed items.
 
 ---
